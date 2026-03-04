@@ -1,0 +1,12 @@
+This folder stores workflow definitions for the Clara AI automation pipeline.
+
+In production this would contain the n8n workflow export used to run the pipeline.
+
+Steps in workflow:
+
+1. Ingest demo call transcript
+2. Extract structured account memo
+3. Generate Retell agent draft specification
+4. Store versioned outputs
+5. Apply onboarding updates
+6. Regenerate updated agent configuration
