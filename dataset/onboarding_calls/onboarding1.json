@@ -1,0 +1,11 @@
+{
+  "business_hours": {
+    "days": "Mon-Fri",
+    "start": "07:00",
+    "end": "18:00",
+    "timezone": "EST"
+  },
+  "integration_constraints": [
+    "Never create sprinkler jobs in ServiceTrade"
+  ]
+}
